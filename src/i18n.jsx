@@ -1,17 +1,19 @@
 import { createContext, useContext, useState } from "react";
 
+const asset = (path) => `${import.meta.env.BASE_URL}${path}`;
+
 export const IMAGES = {
-  hero: "/images/chef-portrait.jpg",
-  plating: "/images/chef-manifesto.jpg",
-  estate: "/images/service-quotidien.jpg",
-  salmon: "/images/service-evenement.jpg",
+  hero: asset("images/chef-portrait.jpg"),
+  plating: asset("images/chef-manifesto.jpg"),
+  estate: asset("images/service-quotidien.jpg"),
+  salmon: asset("images/service-evenement.jpg"),
   yacht: "https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?q=85&w=1600&auto=format&fit=crop",
-  blanquette: "/images/blanquette.jpg",
-  betterave: "/images/betterave.jpg",
-  poireaux: "/images/poireaux.jpg",
-  carotte: "/images/carotte.jpg",
-  kumcoco: "/images/kumcoco.jpg",
-  ravioli: "/images/ravioli.jpg",
+  blanquette: asset("images/blanquette.jpg"),
+  betterave: asset("images/betterave.jpg"),
+  poireaux: asset("images/poireaux.jpg"),
+  carotte: asset("images/carotte.jpg"),
+  kumcoco: asset("images/kumcoco.jpg"),
+  ravioli: asset("images/ravioli.jpg"),
 };
 
 export const translations = {

@@ -7,7 +7,7 @@ const dir = path.dirname(fileURLToPath(import.meta.url));
 
 export default defineConfig({
   plugins: [react()],
-  base: "./",
+  base: "/scott-anila-chef/",
   resolve: {
     alias: {
       "@": path.resolve(dir, "src"),
