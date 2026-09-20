@@ -239,7 +239,7 @@ export const translations = {
     footer: {
       monogram: "SA",
       line: "Chef privé français — France · International",
-      email: "scott.anila@icloud.com",
+            email: "scott.anila.chef@gmail.com",
       phone: "+33 6 16 61 29 48",
       protocols: "Communications privées : WhatsApp · e-mail",
       rights: "© 2026 Scott Anila. Tous droits réservés.",
@@ -467,7 +467,7 @@ export const translations = {
     footer: {
       monogram: "SA",
       line: "French private chef — France · International",
-      email: "scott.anila@icloud.com",
+            email: "scott.anila.chef@gmail.com",
       phone: "+33 6 16 61 29 48",
       protocols: "Private communications: WhatsApp · email",
       rights: "© 2026 Scott Anila. All rights reserved.",
