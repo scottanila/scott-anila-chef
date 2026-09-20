@@ -4,7 +4,7 @@ import { toast } from "sonner";
 import { MessageCircle, CheckCircle2 } from "lucide-react";
 import { useLanguage } from "../i18n";
 
-const BOOKING_EMAIL = "scott.anila@icloud.com";
+const BOOKING_EMAIL = "scott.anila.chef@gmail.com";
 
 const fadeUp = {
   initial: { opacity: 0, y: 40 },
