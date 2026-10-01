@@ -78,8 +78,11 @@ const Navbar = () => {
           onClick={() => go("#experience")}
           className="text-left leading-none"
         >
-          <span className="block font-serif text-lg tracking-[0.12em] uppercase text-headline">
-            {t.nav.brand}
+          <span className="block font-display font-semibold text-[10px] tracking-[0.4em] uppercase text-caramel">
+            Maison
+          </span>
+          <span className="block mt-0.5 font-display font-bold text-xl tracking-[0.06em] uppercase text-headline">
+            Anila
           </span>
           <span className="block mt-1 font-mono text-[9px] tracking-[0.3em] uppercase text-mutedtext">
             {t.nav.subline}
