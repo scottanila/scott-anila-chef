@@ -19,8 +19,13 @@ const Footer = () => {
       <div className="relative max-w-[1400px] mx-auto px-6 lg:px-12 py-20">
         <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-12">
           <div>
-            <span className="font-serif text-3xl tracking-[0.1em] uppercase text-headline">
-              {t.nav.brand}
+            <span className="block leading-none">
+              <span className="block font-display font-semibold text-[10px] tracking-[0.4em] uppercase text-caramel">
+                Maison
+              </span>
+              <span className="block mt-0.5 font-display font-bold text-3xl tracking-[0.06em] uppercase text-headline">
+                Anila
+              </span>
             </span>
             <p className="mt-3 font-mono text-[10px] uppercase tracking-[0.28em] text-mutedtext">
               {t.footer.line}

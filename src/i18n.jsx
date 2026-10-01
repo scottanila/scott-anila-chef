@@ -242,7 +242,7 @@ export const translations = {
             email: "scott.anila.chef@gmail.com",
       phone: "+33 6 16 61 29 48",
       protocols: "Communications privées : WhatsApp · e-mail",
-      rights: "© 2026 Scott Anila. Tous droits réservés.",
+      rights: "© 2026 Maison Anila. Tous droits réservés.",
     },
   },
   en: {
@@ -470,7 +470,7 @@ export const translations = {
             email: "scott.anila.chef@gmail.com",
       phone: "+33 6 16 61 29 48",
       protocols: "Private communications: WhatsApp · email",
-      rights: "© 2026 Scott Anila. All rights reserved.",
+      rights: "© 2026 Maison Anila. All rights reserved.",
     },
   },
 };
