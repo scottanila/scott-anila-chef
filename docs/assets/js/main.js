@@ -151,6 +151,7 @@
 
   /* ---------- Split text into words ---------- */
   $$('[data-split]').forEach(splitWords);
+  $$('[data-fill]').forEach(splitWords);
 
   if (reduced) {
     $('.loader')?.remove();
@@ -202,6 +203,17 @@
       scrollTrigger: { trigger: el, start: 'top 85%' },
     });
   });
+
+  /* ---------- Avis : le texte "s'allume" mot à mot au défilement ---------- */
+  $$('[data-fill]').forEach((el) => {
+    gsap.fromTo($$('.w > span', el), { opacity: 0.14 }, {
+      opacity: 1, ease: 'none', stagger: 0.05,
+      scrollTrigger: { trigger: el, start: 'top 78%', end: 'bottom 50%', scrub: true },
+    });
+  });
+  gsap.from('.stars svg', { scale: 0, rotate: -45, transformOrigin: '50% 50%', duration: 0.9, ease: 'back.out(2.2)', stagger: 0.09, scrollTrigger: { trigger: '.stars', start: 'top 88%' } });
+  gsap.from('.reviews__score', { yPercent: 40, autoAlpha: 0, duration: 1.4, ease: 'expo.out', scrollTrigger: { trigger: '.reviews', start: 'top 75%' } });
+  gsap.from('.review__mark', { y: 40, autoAlpha: 0, duration: 1.4, ease: 'expo.out', scrollTrigger: { trigger: '.review', start: 'top 80%' } });
 
   /* ---------- Generic reveal ---------- */
   $$('[data-reveal]').forEach((el) => {

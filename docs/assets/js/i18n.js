@@ -127,6 +127,18 @@ window.MA_I18N = {
     'd6.meta': '06 — Sweets',
     'd6.text': 'Coconut mousse, soft sponge, coconut crunch, mango–passion fruit–kaffir lime gel, pineapple compote and chocolate shell.',
 
+    /* reviews */
+    'reviews.eyebrow': 'Guest reviews',
+    'reviews.score': '5.0',
+    'reviews.stars': '5 out of 5',
+    'reviews.scoreLabel': 'Airbnb rating · Private Chef Scott',
+    'reviews.translation': '',
+    'reviews.meta': 'London, United Kingdom · October 2026',
+    'reviews.verified': 'Verified Airbnb review',
+    'reviews.cta': 'View on Airbnb ↗',
+    'reviews.href': 'https://www.airbnb.com/services/6959807',
+    'footer.airbnb': 'Book on Airbnb ↗',
+
     /* booking */
     'booking.eyebrow': 'Booking',
     'booking.title': 'Private residence request',
